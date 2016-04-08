@@ -8,7 +8,15 @@
 	<authorEmail>leowgweb@gmail.com</authorEmail>
 	<authorUrl>www.leowgweb.com</authorUrl>
 	<version>1.0.0</version>
-	<description>MOD_WGMODALCUSTOMHTML_XML_DESCRIPTION</description>
+	<description>
+		<![CDATA[
+                <p>Este módulo permite a você criar seu próprio Módulo usando um editor WYSIWYG e ainda permite que o conteúdo seja visto em um modal através do clique de um botão.</p>
+                <p>Versão <strong>1.0</strong></p>
+                <p>Desenvolvido por Lauro W. Guedes</p>
+                <p>leo-ti@hotmail.com / leowgweb@gmail.com | <a href="http://leowgweb.com">www.leowgweb.com</a> | Twitter: <a href="http://twitter.com/leowg">@leowg</a> | Youtube: <a href="https://www.youtube.com/channel/UCpcZSVLJlSR9d7uu5Muzd_Q?sub_confirmation=1">Canal leowgweb</a></p>
+        		<br>
+        ]]>
+	</description>
 
 	<customContent />
 
@@ -42,6 +50,7 @@
 				<field name="backgroundimage" type="media"
 					label="MOD_WGMODALCUSTOMHTML_FIELD_BACKGROUNDIMAGE_LABEL" description="MOD_BACKGROUNDIMAGE_FIELD_LOGO_DESC" />
 			</fieldset>
+
 			<!-- aba das configurações do botão modal -->
 			<fieldset name="modal" label="MOD_WGMODALCUSTOMHTML_TAB_MODAL">
 				<field name="buttontext" type="text" default="" label="MOD_WGMODALCUSTOMHTML_FIELD_BUTTONTEXT_LABEL" description=""/>
