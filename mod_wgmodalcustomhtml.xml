@@ -8,15 +8,7 @@
 	<authorEmail>leowgweb@gmail.com</authorEmail>
 	<authorUrl>www.leowgweb.com</authorUrl>
 	<version>1.0.0</version>
-	<description>
-		<![CDATA[
-                <p>Módulo HTML Personalizado ativado por botão modal.</p>
-                <p>Versão <strong>1.0</strong></p>
-                <p><strong>Implementações</strong></p>
-                <p>Desenvolvido por Lauro W. Guedes</p>
-                <p>leo-ti@hotmail.com / leowgweb@gmail.com <br/><a href="http://leowgweb.com">www.leowgweb.com</a><br/></p>
-        ]]>
-	</description>
+	<description>MOD_WGMODALCUSTOMHTML_XML_DESCRIPTION</description>
 
 	<customContent />
 
@@ -81,7 +73,7 @@
 					<option value="0">JNO</option>
 				</field>
 				<field name="titlemodal" type="text" default="" label="MOD_WGMODALCUSTOMHTML_FIELD_TITLEMODAL_LABEL" description=""/>
-				<field name="descriptionmodal" type="textarea" label="MOD_WGAJAXCONTATO_FIELD_DESCRICAOMODAL_LABEL" description="" rows="10" cols="5" />
+				<field name="descriptionmodal" type="textarea" label="MOD_WGMODALCUSTOMHTML_FIELD_DESCRIPTIONMODAL_LABEL" description="" rows="10" cols="5" />
 			</fieldset>
 			<fieldset
 				name="advanced">

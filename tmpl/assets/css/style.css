@@ -1,0 +1,360 @@
+/*Cores*/
+.wg-modalcustomhtml-btn-cta.default{
+    background: #E1E1E1;
+    color: #666;
+    border: 1px solid #ccc;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.wg-modalcustomhtml-btn-cta.default:hover{
+    background: #c7c7c7;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.wg-modalcustomhtml-btn-cta.red{
+    background: #db2828;
+    color: #fff;
+    border: 1px solid #a81e1e;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.wg-modalcustomhtml-btn-cta.red:hover{
+    background: #c22323;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.wg-modalcustomhtml-btn-cta.orange{
+    background: #f2711c;
+    color: #fff;
+    border: 1px solid #bf5a17;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.wg-modalcustomhtml-btn-cta.orange:hover{
+    background: #d9661a;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.wg-modalcustomhtml-btn-cta.yellow{
+    background: #fbbd08;
+    color: #fff;
+    border: 1px solid #c79706;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.wg-modalcustomhtml-btn-cta.yellow:hover{
+    background: #e0aa07;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.wg-modalcustomhtml-btn-cta.olive{
+    background: #b5cc18;
+    color: #fff;
+    border: 1px solid #879912;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.wg-modalcustomhtml-btn-cta.olive:hover{
+    background: #9eb315;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.wg-modalcustomhtml-btn-cta.green{
+    background: #21ba45;
+    color: #fff;
+    border: 1px solid #188732;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.wg-modalcustomhtml-btn-cta.green:hover{
+    background: #1da13c;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.wg-modalcustomhtml-btn-cta.teal{
+    background: #00b5ad;
+    color: #fff;
+    border: 1px solid #00827c;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.wg-modalcustomhtml-btn-cta.teal:hover{
+    background: #009c94;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.wg-modalcustomhtml-btn-cta.blue{
+    background: #2185d0;
+    color: #fff;
+    border: 1px solid #19659e;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.wg-modalcustomhtml-btn-cta.blue:hover{
+    background: #1d75b8;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.wg-modalcustomhtml-btn-cta.violet{
+    background: #6435c9;
+    color: #fff;
+    border: 1px solid #4a2796;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.wg-modalcustomhtml-btn-cta.violet:hover{
+    background: #572eb0;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.wg-modalcustomhtml-btn-cta.purple{
+    background: #a333c8;
+    color: #fff;
+    border: 1px solid #782594;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.wg-modalcustomhtml-btn-cta.purple:hover{
+    background: #8d2bad;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.wg-modalcustomhtml-btn-cta.pink{
+    background: #e03997;
+    color: #fff;
+    border: 1px solid #ad2b75;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.wg-modalcustomhtml-btn-cta.pink:hover{
+    background: #c73286;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.wg-modalcustomhtml-btn-cta.brown{
+    background: #a5673f;
+    color: #fff;
+    border: 1px solid #73482c;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.wg-modalcustomhtml-btn-cta.brown:hover{
+    background: #8c5835;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.wg-modalcustomhtml-btn-cta.grey{
+    background: #767676;
+    color: #fff;
+    border: 1px solid #424242;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.wg-modalcustomhtml-btn-cta.grey:hover{
+    background: #5c5c5c;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.wg-modalcustomhtml-btn-cta.black{
+    background: #1b1c1d;
+    color: #fff;
+    border: 1px solid #020203;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.wg-modalcustomhtml-btn-cta.black:hover{
+    background: #323436;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.wg-modalcustomhtml-btn-cta.white{
+    background: #fff;
+    color: #1b1c1d;
+    border: 1px solid #dcdcdc;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.wg-modalcustomhtml-btn-cta.white:hover{
+    background: #eeeeee;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.wg-modalcustomhtml-content{
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.wg-modalcustomhtml-content .custom{
+    text-align: left;
+}
+.wg-modalcustomhtml-content.default{
+    border-bottom: 3px solid #E1E1E1;
+    border-top: 1px solid #E1E1E1;
+}
+.wg-modalcustomhtml-content.red{
+    border-bottom: 3px solid #db2828;
+    border-top: 1px solid #db2828;
+}
+.wg-modalcustomhtml-content.orange{
+    border-bottom: 3px solid #f2711c;
+    border-top: 1px solid #f2711c;
+}
+.wg-modalcustomhtml-content.yellow{
+    border-bottom: 3px solid #fbbd08;
+    border-top: 1px solid #fbbd08;
+}
+.wg-modalcustomhtml-content.olive{
+    border-bottom: 3px solid #b5cc18;
+    border-top: 1px solid #b5cc18;
+}
+.wg-modalcustomhtml-content.green{
+    border-bottom: 3px solid #21ba45;
+    border-top: 1px solid #21ba45;
+}
+.wg-modalcustomhtml-content.teal{
+    border-bottom: 3px solid #00b5ad;
+    border-top: 1px solid #00b5ad;
+}
+.wg-modalcustomhtml-content.blue{
+    border-bottom: 3px solid #2185d0;
+    border-top: 1px solid #2185d0;
+}
+.wg-modalcustomhtml-content.violet{
+    border-bottom: 3px solid #6435c9;
+    border-top: 1px solid #6435c9;
+}
+.wg-modalcustomhtml-content.purple{
+    border-bottom: 3px solid #a333c8;
+    border-top: 1px solid #a333c8;
+}
+.wg-modalcustomhtml-content.pink{
+    border-bottom: 3px solid #e03997;
+    border-top: 1px solid #e03997;
+}
+.wg-modalcustomhtml-content.brown{
+    border-bottom: 3px solid #a5673f;
+    border-top: 1px solid #a5673f;
+}
+.wg-modalcustomhtml-content.grey{
+    border-bottom: 3px solid #767676;
+    border-top: 1px solid #767676;
+}
+.wg-modalcustomhtml-content.black{
+    border-bottom: 3px solid #1b1c1d;
+    border-top: 1px solid #1b1c1d;
+}
+
+/*Estrutura*/
+.wg-modalcustomhtml-btn-cta.mini{
+    padding: 8px 10px;
+    font-size: 12px;
+}
+.wg-modalcustomhtml-btn-cta.medium{
+    padding: 10px 15px;
+    font-size: 14px;
+}
+.wg-modalcustomhtml-btn-cta.big{
+    padding: 15px 20px;
+    font-size: 16px;
+}
+
+/*Título e subtítulo do Modal*/
+.wg-modalcustomhtml-header h3{
+    font-size: 28px;
+    color: #666;
+    margin-bottom: 20px;
+}
+.wg-modalcustomhtml-header p{
+    font-size: 18px;
+    color: #999;
+}

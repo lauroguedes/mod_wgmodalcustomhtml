@@ -18,7 +18,8 @@ defined('_JEXEC') or die;
 	<button class="wg-modalcustomhtml-btn-cta <?php echo $stylemodal.' '.$buttonsize; ?>" data-remodal-target="<?php echo $wgModalCustomHtmlOpen; ?>"><?php echo ($buttontext == '') ? JText::_('MOD_WGMODALCUSTOMHTML_SITE_BUTTONTEXT') : $buttontext; ?></button>
 </div>
 
-<div class="wg-modalcustomhtml-content remodal <?php echo $stylemodal.' '.$widthmodal; ?>" data-remodal-id="<?php echo $wgModalCustomHtmlOpen; ?>"  role="dialog">
+<div class="wg-modalcustomhtml-content remodal <?php echo $stylemodal; ?>" style="width: <?php echo $widthmodal; ?>" data-remodal-id="<?php echo $wgModalCustomHtmlOpen; ?>"  role="dialog">
+	<div class="remodal-close" data-remodal-action="close"></div>
 	<?php if ($showheader) : ?>
 		<div class="wg-modalcustomhtml-header">
 			<h3><?php echo $titlemodal; ?></h3>
@@ -26,7 +27,7 @@ defined('_JEXEC') or die;
 			<hr>
 		</div>
 	<?php endif; ?>
-	<div class="custom<?php echo $moduleclass_sfx ?>" <?php if ($params->get('backgroundimage')) : ?> style="background-image:url(<?php echo $params->get('backgroundimage');?>)"<?php endif;?> >
+	<div class="custom <?php echo $moduleclass_sfx ?>" <?php if ($params->get('backgroundimage')) : ?> style="background-image:url(<?php echo $params->get('backgroundimage');?>)"<?php endif;?> >
 		<?php echo $module->content;?>
 	</div>
 </div>
