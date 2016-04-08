@@ -26,7 +26,7 @@ $widthmodal = modWgModalCustomHtmlHelper::processWidth($params->get('widthmodal'
 if ($params->def('prepare_content', 1))
 {
 	JPluginHelper::importPlugin('content');
-	$module->content = JHtml::_('content.prepare', $module->content, '', 'mod_custom.content');
+	$module->content = JHtml::_('content.prepare', $module->content, '', 'mod_wgmodalcustomhtml.content');
 }
 
 $moduleclass_sfx = htmlspecialchars($params->get('moduleclass_sfx'));
@@ -34,4 +34,4 @@ $moduleclass_sfx = htmlspecialchars($params->get('moduleclass_sfx'));
 // Declarando dependências
 modWgModalCustomHtmlHelper::pullDependencies();
 
-require JModuleHelper::getLayoutPath('mod_modalcustomhtml', $params->get('layout', 'default'));
+require JModuleHelper::getLayoutPath('mod_wgmodalcustomhtml', $params->get('layout', 'default'));
