@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="1.0" client="site" method="upgrade">
+	<name>mod_modalcustomhtml</name>
+	<author>Lauro W. Guedes</author>
+	<creationDate>Abril 2016</creationDate>
+	<copyright>Copyright (C) 2014 - 2016 Leowgweb. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>leowgweb@gmail.com</authorEmail>
+	<authorUrl>www.leowgweb.com</authorUrl>
+	<version>1.0.0</version>
+	<description>MOD_WGMODALCUSTOMHTML_XML_DESCRIPTION</description>
+
+	<customContent />
+
+	<files>
+		<filename module="mod_modalcustomhtml">mod_modalcustomhtml.php</filename>
+		<filename>helper.php</filename>
+		<folder>tmpl</folder>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.mod_modalcustomhtml.ini</language>
+		<language tag="en-GB">en-GB.mod_modalcustomhtml.sys.ini</language>
+		<language tag="pt-BR">pt-BR.mod_modalcustomhtml.ini</language>
+		<language tag="pt-BR">pt-BR.mod_modalcustomhtml.sys.ini</language>
+	</languages>
+
+	<config>
+		<fields name="params">
+			<fieldset name="options" label="COM_MODULES_BASIC_FIELDSET_LABEL">
+				<field
+					name="prepare_content"
+					type="radio"
+					class="btn-group btn-group-yesno"
+					label="MOD_WGMODALCUSTOMHTML_FIELD_PREPARE_CONTENT_LABEL"
+					description="MOD_WGMODALCUSTOMHTML_FIELD_PREPARE_CONTENT_DESC"
+					default="0">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+				<field name="backgroundimage" type="media"
+					label="MOD_WGMODALCUSTOMHTML_FIELD_BACKGROUNDIMAGE_LABEL" description="MOD_BACKGROUNDIMAGE_FIELD_LOGO_DESC" />
+			</fieldset>
+			<!-- aba das configurações do botão modal -->
+			<fieldset name="modal" label="MOD_WGMODALCUSTOMHTML_TAB_MODAL">
+				<field name="buttontext" type="text" default="" label="MOD_WGMODALCUSTOMHTML_FIELD_BUTTONTEXT_LABEL" description=""/>
+				<field name="stylemodal" type="list" default="default" label="MOD_WGMODALCUSTOMHTML_FIELD_STYLEMODAL_LABEL" description="">
+					<option value="default">MOD_WGMODALCUSTOMHTML_STYLEMODAL_OPTION_DEFAULT</option>
+					<option value="red">MOD_WGMODALCUSTOMHTML_STYLEMODAL_OPTION_RED</option>
+					<option value="orange">MOD_WGMODALCUSTOMHTML_STYLEMODAL_OPTION_ORANGE</option>
+					<option value="yellow">MOD_WGMODALCUSTOMHTML_STYLEMODAL_OPTION_YELLOW</option>
+					<option value="olive">MOD_WGMODALCUSTOMHTML_STYLEMODAL_OPTION_OLIVE</option>
+					<option value="green">MOD_WGMODALCUSTOMHTML_STYLEMODAL_OPTION_GREEN</option>
+					<option value="teal">MOD_WGMODALCUSTOMHTML_STYLEMODAL_OPTION_TEAL</option>
+					<option value="blue">MOD_WGMODALCUSTOMHTML_STYLEMODAL_OPTION_BLUE</option>
+					<option value="violet">MOD_WGMODALCUSTOMHTML_STYLEMODAL_OPTION_VIOLET</option>
+					<option value="purple">MOD_WGMODALCUSTOMHTML_STYLEMODAL_OPTION_PURPLE</option>
+					<option value="pink">MOD_WGMODALCUSTOMHTML_STYLEMODAL_OPTION_PINK</option>
+					<option value="brown">MOD_WGMODALCUSTOMHTML_STYLEMODAL_OPTION_BROWN</option>
+					<option value="grey">MOD_WGMODALCUSTOMHTML_STYLEMODAL_OPTION_GREY</option>
+					<option value="black">MOD_WGMODALCUSTOMHTML_STYLEMODAL_OPTION_BLACK</option>
+					<option value="white">MOD_WGMODALCUSTOMHTML_STYLEMODAL_OPTION_WHITE</option>
+				</field>
+				<field name="buttonsize" type="list" default="default" label="MOD_WGMODALCUSTOMHTML_FIELD_BUTTONSIZE_LABEL">
+					<option value="mini">MOD_WGMODALCUSTOMHTML_BUTTONSIZE_OPTION_MINI</option>
+					<option value="medium">MOD_WGMODALCUSTOMHTML_BUTTONSIZE_OPTION_MEDIUM</option>
+					<option value="big">MOD_WGMODALCUSTOMHTML_BUTTONSIZE_OPTION_BIG</option>
+				<field />
+				<field name="widthmodal" type="text" default="60" label="MOD_WGMODALCUSTOMHTML_FIELD_WIDTHMODAL_LABEL" description="MOD_WGMODALCUSTOMHTML_FIELD_WIDTHMODAL_DESCRIPTION"/>
+				<field name="showheader" type="radio" class="radio btn-group btn-group-yesno" default="0" label="MOD_WGMODALCUSTOMHTML_FIELD_SHOWHEADER_LABEL" description="">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+				<field name="titlemodal" type="text" default="" label="MOD_WGMODALCUSTOMHTML_FIELD_TITLEMODAL_LABEL" description=""/>
+				<field name="descriptionmodal" type="textarea" label="MOD_WGAJAXCONTATO_FIELD_DESCRICAOMODAL_LABEL" description="" rows="10" cols="5" />
+			</fieldset>
+			<fieldset
+				name="advanced">
+				<field
+					name="layout"
+					type="modulelayout"
+					label="JFIELD_ALT_LAYOUT_LABEL"
+					description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+
+				<field
+					name="moduleclass_sfx"
+					type="textarea" rows="3"
+					label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+					description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+
+				<field
+					name="cache"
+					type="list"
+					default="1"
+					label="COM_MODULES_FIELD_CACHING_LABEL"
+					description="COM_MODULES_FIELD_CACHING_DESC">
+					<option
+						value="1">JGLOBAL_USE_GLOBAL</option>
+					<option
+						value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+
+				<field
+					name="cache_time"
+					type="text"
+					default="900"
+					label="COM_MODULES_FIELD_CACHE_TIME_LABEL"
+					description="COM_MODULES_FIELD_CACHE_TIME_DESC" />
+				<field
+					name="cachemode"
+					type="hidden"
+					default="static">
+					<option
+						value="static"></option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
