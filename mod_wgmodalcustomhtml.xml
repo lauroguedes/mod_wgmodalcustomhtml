@@ -8,7 +8,17 @@
 	<authorEmail>leowgweb@gmail.com</authorEmail>
 	<authorUrl>www.leowgweb.com</authorUrl>
 	<version>1.0.0</version>
-	<description>MOD_WGMODALCUSTOMHTML_XML_DESCRIPTION</description>
+	<description>
+		<![CDATA[
+                <p>Módulo HTML Personalizado ativado por botão modal.</p>
+                <p>Versão <strong>1.0</strong></p>
+                <p><strong>Implementações</strong></p>
+                <p>Desenvolvido por Lauro W. Guedes</p>
+                <p>leo-ti@hotmail.com / leowgweb@gmail.com <br/><a href="http://leowgweb.com">www.leowgweb.com</a><br/></p>
+        ]]>
+	</description>
+
+	<customContent />
 
 	<files>
 		<filename>mod_wgmodalcustomhtml.xml</filename>
@@ -18,10 +28,10 @@
 		<folder>tmpl</folder>
 	</files>
 	<languages>
-		<language tag="en-GB">en-GB.mod_wgmodalcustomhtml.ini</language>
-		<language tag="en-GB">en-GB.mod_wgmodalcustomhtml.sys.ini</language>
-		<language tag="pt-BR">pt-BR.mod_wgmodalcustomhtml.ini</language>
-		<language tag="pt-BR">pt-BR.mod_wgmodalcustomhtml.sys.ini</language>
+		<language tag="en-GB">language/en-GB.mod_wgmodalcustomhtml.ini</language>
+		<language tag="en-GB">language/en-GB.mod_wgmodalcustomhtml.sys.ini</language>
+		<language tag="pt-BR">language/pt-BR.mod_wgmodalcustomhtml.ini</language>
+		<language tag="pt-BR">language/pt-BR.mod_wgmodalcustomhtml.sys.ini</language>
 	</languages>
 
 	<config>
@@ -64,7 +74,7 @@
 					<option value="mini">MOD_WGMODALCUSTOMHTML_BUTTONSIZE_OPTION_MINI</option>
 					<option value="medium">MOD_WGMODALCUSTOMHTML_BUTTONSIZE_OPTION_MEDIUM</option>
 					<option value="big">MOD_WGMODALCUSTOMHTML_BUTTONSIZE_OPTION_BIG</option>
-				<field />
+				</field>
 				<field name="widthmodal" type="text" default="60" label="MOD_WGMODALCUSTOMHTML_FIELD_WIDTHMODAL_LABEL" description="MOD_WGMODALCUSTOMHTML_FIELD_WIDTHMODAL_DESCRIPTION"/>
 				<field name="showheader" type="radio" class="radio btn-group btn-group-yesno" default="0" label="MOD_WGMODALCUSTOMHTML_FIELD_SHOWHEADER_LABEL" description="">
 					<option value="1">JYES</option>
