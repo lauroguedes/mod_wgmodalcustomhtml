@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02d0105d-e98e-4ffd-bdf1-425936eec569" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/helper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/language/en-GB.mod_modalcustomhtml.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/language/en-GB.mod_modalcustomhtml.sys.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/language/pt-BR.mod_modalcustomhtml.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/language/pt-BR.mod_modalcustomhtml.sys.ini" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mod_custom.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mod_custom.php" afterPath="$PROJECT_DIR$/mod_modalcustomhtml.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmpl/default.php" afterPath="$PROJECT_DIR$/tmpl/default.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mod_modalcustomhtml.xml" afterPath="$PROJECT_DIR$/mod_modalcustomhtml.xml" />
     </list>
     <ignored path="mod_wgmodalcustomhtml.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,73 +26,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="mod_modalcustomhtml.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mod_modalcustomhtml.php">
+      <file leaf-file-name="mod_modalcustomhtml.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mod_modalcustomhtml.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.3103447">
-              <caret line="20" column="17" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.55988026">
+              <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tmpl/default.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5928144">
-              <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
-              <folding>
-                <element signature="n#style#0;n#div#1;n#div#1;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tmpl/assets/css/style.css">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mod_modalcustomhtml.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mod_modalcustomhtml.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="10.103448">
-              <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pt-BR.mod_modalcustomhtml.ini" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/language/pt-BR.mod_modalcustomhtml.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="38" column="37" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="en-GB.mod_modalcustomhtml.ini" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/language/en-GB.mod_modalcustomhtml.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="helper.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/helper.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.064516">
-              <caret line="41" column="43" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -277,42 +219,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/helper.php">
+    <entry file="file://$PROJECT_DIR$/tmpl/default.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.064516">
-          <caret line="41" column="43" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/language/en-GB.mod_modalcustomhtml.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
-          <folding />
+        <state vertical-scroll-proportion="0.5928144">
+          <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#1;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mod_modalcustomhtml.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.3103447">
+        <state vertical-scroll-proportion="0.37425148">
           <caret line="20" column="17" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mod_modalcustomhtml.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="10.103448">
-          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/language/pt-BR.mod_modalcustomhtml.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="37" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -325,13 +245,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tmpl/default.php">
+    <entry file="file://$PROJECT_DIR$/language/pt-BR.mod_modalcustomhtml.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5928144">
-          <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#1;n#!!top" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.8181818">
+          <caret line="38" column="37" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/language/en-GB.mod_modalcustomhtml.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8484849">
+          <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5381295">
+          <caret line="41" column="43" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mod_modalcustomhtml.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.55988026">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>

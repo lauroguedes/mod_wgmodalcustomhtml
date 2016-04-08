@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="module" version="1.0" client="site" method="upgrade">
-	<name>mod_modalcustomhtml</name>
+	<name>WG Modal Custom HTML</name>
 	<author>Lauro W. Guedes</author>
 	<creationDate>Abril 2016</creationDate>
 	<copyright>Copyright (C) 2014 - 2016 Leowgweb. All rights reserved.</copyright>
@@ -13,7 +13,9 @@
 	<customContent />
 
 	<files>
+		<filename>mod_modalcustomhtml.xml</filename>
 		<filename module="mod_modalcustomhtml">mod_modalcustomhtml.php</filename>
+		<filename>index.html</filename>
 		<filename>helper.php</filename>
 		<folder>tmpl</folder>
 	</files>
