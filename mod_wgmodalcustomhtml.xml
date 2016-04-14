@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension type="module" version="1.0" client="site" method="upgrade">
+<extension type="module" version="1.0.0" client="site" method="upgrade">
 	<name>WG Modal Custom HTML</name>
 	<author>Lauro W. Guedes</author>
 	<creationDate>Abril 2016</creationDate>
@@ -13,7 +13,7 @@
                 <p>Este módulo permite a você criar seu próprio Módulo usando um editor WYSIWYG e ainda permite que o conteúdo seja visto em um modal através do clique de um botão.</p>
                 <p>Versão <strong>1.0</strong></p>
                 <p>Desenvolvido por Lauro W. Guedes</p>
-                <p>leo-ti@hotmail.com / leowgweb@gmail.com | <a href="http://leowgweb.com">www.leowgweb.com</a> | Twitter: <a href="http://twitter.com/leowg">@leowg</a> | Youtube: <a href="https://www.youtube.com/channel/UCpcZSVLJlSR9d7uu5Muzd_Q?sub_confirmation=1">Canal leowgweb</a></p>
+                <p>leo-ti@hotmail.com / leowgweb@gmail.com | <a href="http://leowgweb.com">www.leowgweb.com</a> | GitHup: <a href="https://github.com/lauroguedes">@lauroguedes</a> | Twitter: <a href="http://twitter.com/leowg">@leowg</a> | Youtube: <a href="https://www.youtube.com/channel/UCpcZSVLJlSR9d7uu5Muzd_Q?sub_confirmation=1">Canal leowgweb</a></p>
         		<br>
         ]]>
 	</description>
@@ -137,4 +137,7 @@
 			</fieldset>
 		</fields>
 	</config>
+	<updateservers>
+		<server type="extension" priority="1" name="WG Modal Custom HTML">http://leowgweb.com/w/moduleupdates/mod_wgmodalcustomhtml.xml</server>
+	</updateservers>
 </extension>
