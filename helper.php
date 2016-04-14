@@ -39,7 +39,7 @@ class modWgModalCustomHtmlHelper{
      * Trata a atribuição das dependências do módulo
      * @access public
      */
-    public static function pullDependencies()
+    public static function pullDependencies($enablefontawesome)
     {
         $doc   = JFactory::getDocument();
         $app = JFactory::getApplication();
@@ -69,6 +69,10 @@ class modWgModalCustomHtmlHelper{
             $doc->addStyleSheet(JURI::base().'templates/'.$template.'/html/mod_wgmodalcustomhtml/assets/css/remodal-default-theme.css');
         }else{
             $doc->addStyleSheet(JURI::base().'modules/mod_wgmodalcustomhtml/tmpl/assets/css/remodal-default-theme.css');
+        }
+
+        if($enablefontawesome == 1){
+            $doc->addStyleSheet('https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css');
         }
     }
 

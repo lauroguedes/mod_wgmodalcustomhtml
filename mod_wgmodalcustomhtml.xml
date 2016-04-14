@@ -54,6 +54,17 @@
 			<!-- aba das configurações do botão modal -->
 			<fieldset name="modal" label="MOD_WGMODALCUSTOMHTML_TAB_MODAL">
 				<field name="buttontext" type="text" default="" label="MOD_WGMODALCUSTOMHTML_FIELD_BUTTONTEXT_LABEL" description=""/>
+				<field name="useicon" type="list" default="0" label="MOD_WGMODALCUSTOMHTML_FIELD_USEICON_LABEL" description="MOD_WGMODALCUSTOMHTML_FIELD_USEICON_DESCRIPTION">
+					<option value="0">MOD_WGMODALCUSTOMHTML_USEICON_OPTION_NONE</option>
+					<option value="1">MOD_WGMODALCUSTOMHTML_USEICON_OPTION_LEFT</option>
+					<option value="2">MOD_WGMODALCUSTOMHTML_USEICON_OPTION_RIGHT</option>
+					<option value="3">MOD_WGMODALCUSTOMHTML_USEICON_OPTION_ONLY</option>
+				</field>
+				<field name="classicon" type="text" default="" label="MOD_WGMODALCUSTOMHTML_FIELD_CLASSICON_LABEL" description="MOD_WGMODALCUSTOMHTML_FIELD_CLASSICON_DESCRIPTION"/>
+				<field name="enablefontawesome" type="radio" class="radio btn-group btn-group-yesno" default="0" label="MOD_WGMODALCUSTOMHTML_FIELD_ENABLEFONTAWESOME_LABEL" description="">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
 				<field name="stylemodal" type="list" default="default" label="MOD_WGMODALCUSTOMHTML_FIELD_STYLEMODAL_LABEL" description="">
 					<option value="default">MOD_WGMODALCUSTOMHTML_STYLEMODAL_OPTION_DEFAULT</option>
 					<option value="red">MOD_WGMODALCUSTOMHTML_STYLEMODAL_OPTION_RED</option>

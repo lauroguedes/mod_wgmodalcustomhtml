@@ -18,6 +18,9 @@ $stylemodal = $params->get('stylemodal');
 $buttonsize = $params->get('buttonsize');
 $showheader = $params->get('showheader');
 $titlemodal = $params->get('titlemodal');
+$useicon = $params->get('useicon');
+$classicon = $params->get('classicon');
+$enablefontawesome = $params->get('enablefontawesome');
 $descriptionmodal = $params->get('descriptionmodal');
 
 $widthmodal = modWgModalCustomHtmlHelper::processWidth($params->get('widthmodal'));
@@ -32,6 +35,6 @@ if ($params->def('prepare_content', 1))
 $moduleclass_sfx = htmlspecialchars($params->get('moduleclass_sfx'));
 
 // Declarando dependências
-modWgModalCustomHtmlHelper::pullDependencies();
+modWgModalCustomHtmlHelper::pullDependencies($enablefontawesome);
 
 require JModuleHelper::getLayoutPath('mod_wgmodalcustomhtml', $params->get('layout', 'default'));
