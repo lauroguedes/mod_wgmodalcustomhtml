@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="02d0105d-e98e-4ffd-bdf1-425936eec569" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mod_wgmodalcustomhtml.xml" afterPath="$PROJECT_DIR$/mod_wgmodalcustomhtml.xml" />
     </list>
     <ignored path="mod_wgmodalcustomhtml.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,8 +27,8 @@
       <file leaf-file-name="mod_wgmodalcustomhtml.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mod_wgmodalcustomhtml.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4281437">
-              <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.70359284">
+              <caret line="140" column="43" selection-start-line="140" selection-start-column="43" selection-end-line="140" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -412,8 +411,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mod_wgmodalcustomhtml.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4281437">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.70359284">
+          <caret line="140" column="43" selection-start-line="140" selection-start-column="43" selection-end-line="140" selection-end-column="43" />
           <folding />
         </state>
       </provider>
